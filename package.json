@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_hw_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mharkov/nodejs_hw_01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mharkov/nodejs_hw_01/issues"
+  },
+  "homepage": "https://github.com/Mharkov/nodejs_hw_01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "shortid": "^2.2.16"
+  }
+}

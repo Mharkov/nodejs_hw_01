@@ -25,17 +25,6 @@ async function listContacts() {
   }
 }
 
-// async function listContacts() {
-//   try {
-//     const contacts = await fs.readFile(contactsPath, 'utf-8', (err) => {
-//       if (err) console.log(err);
-//     });
-
-//     console.table(JSON.parse(contacts));
-//   } catch (err) {
-//     console.error(err.message);
-//   }
-// }
 async function getContactById(contactId) {
   try {
     const contacts = await parseContacts();
@@ -76,3 +65,15 @@ async function addContact(name, email, phone) {
 }
 
 module.exports = { listContacts, getContactById, removeContact, addContact };
+
+// async function listContacts() {
+//   try {
+//     const contacts = await fs.readFile(contactsPath, 'utf-8', (err) => {
+//       if (err) console.log(err);
+//     });
+
+//     console.table(JSON.parse(contacts));
+//   } catch (err) {
+//     console.error(err.message);
+//   }
+// }

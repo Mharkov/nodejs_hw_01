@@ -5,9 +5,6 @@ const {
   addContact,
 } = require('./contacts.js');
 
-// import { Command } from 'commander';
-// const program = new Command();
-
 const { Command } = require('commander');
 const program = new Command();
 program
@@ -46,3 +43,6 @@ function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
+
+// import { Command } from 'commander';
+// const program = new Command();
